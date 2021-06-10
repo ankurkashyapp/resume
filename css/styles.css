@@ -1,0 +1,116 @@
+body {
+  background-color: #373b40;
+  height: 2000px;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3.7rem;
+  color: white;
+}
+
+.nav-item {
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: .80rem;
+}
+
+.container-nav {
+  background-color: #585d65;
+  border-radius: 80px;
+  left: 4%;
+  right: 4%;
+  top: 40px;
+  padding: 10px 0;
+}
+
+.download-button {
+  border-color: white;
+  border-radius: 80px;
+  padding: 20px 40px;
+  color: white;
+  font-weight: 500;
+  margin-left: 20px;
+  font-size: .75rem;
+}
+
+.download-button:hover {
+  background-color: #373b40;
+  border-color: #373b40;
+}
+
+.container-home {
+  padding: 0;
+}
+
+.container-home .row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.container-image {
+  padding: 0;
+
+}
+
+.container-intro {
+  padding: 0;
+}
+
+.container-image {
+  display:inline-block;
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.5) 0%, #373b40 90%);
+}
+
+.container-image img {
+  width: 100%;
+  object-fit: cover;
+  position:relative;
+  z-index:-1;
+}
+
+.title {
+  margin-top: 130px;
+  background-color: #373b40;
+  border-top-left-radius: 280px;
+  border-bottom-left-radius: 280px;
+  padding: 50px;
+  padding-left: 70px;
+  margin-left: -150px;
+}
+
+.about-me {
+  padding-left: 50px;
+}
+
+.designation h3 {
+  color: #68e0cf;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.summary p {
+  color: white;
+  line-height: 2;
+  font-weight: 400;
+  font-size: .90rem;
+}
+
+.contact-me {
+  margin-top: 20px;
+}
+
+.contact-button {
+  border-color: white;
+  border-radius: 80px;
+  padding: 20px 30px;
+  color: white;
+  font-weight: 500;
+  font-size: .75rem;
+}
+
+.contact-button:hover {
+  background-color: #585d65;
+  border-color: white;
+}
